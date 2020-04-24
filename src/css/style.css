@@ -2,6 +2,10 @@
 	font-family: 'Roboto',sans-serif;
 }
 
+header{
+	position: relative;
+}
+
 nav {
   background-color: rgb(33, 33, 33);
   height: 50px;
@@ -27,6 +31,8 @@ nav {
 }
 
 .subheader {
+	position: absolute;
+	width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   height: 84px;
 
@@ -80,5 +86,62 @@ nav {
 	font-weight: 400;
 	color: rgb(255, 255, 255);
 	text-transform: uppercase;
+
+}
+
+.promo {
+	background-image: url('../img/Layer 3.png');
+	min-height: 800px;
+	padding: 150px 0 135px 0;
+
+}
+
+.promo .promo_header {
+	font-size: 60px;
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
+
+}
+
+.promo .promo_subheader {
+	font-size: 36px;
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 36px;
+	margin: 0;
+	margin-top: 22px;
+	text-align: center;
+
+}
+
+.promo .promo_descr {
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	line-height: 24px;
+	font-weight: 400;
+	margin-top: 23px;
+}
+
+.promo .promo_btn {
+	display: block;
+	margin: 118px auto 0 auto;
+	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+	border: none;
+	border-radius: 4px;
+	background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+	font-size: 14px;
+	width: 259px;
+	height: 63px;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.21);
 
 }
