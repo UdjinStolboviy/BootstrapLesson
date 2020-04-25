@@ -7,11 +7,16 @@ header{
 }
 
 nav {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
   background-color: rgb(33, 33, 33);
   height: 50px;
+
 }
 
 .menu {
+
 	display: flex;
 	justify-content: space-between;
 	padding: 13px 70px;
@@ -33,8 +38,9 @@ nav {
 .subheader {
 	position: absolute;
 	width: 100%;
+	padding: 50px 0 0 0;
   background-color: rgba(0, 0, 0, 0.6);
-  height: 84px;
+  height: 134px;
 
 }
 
