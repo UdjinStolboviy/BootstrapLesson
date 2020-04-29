@@ -152,72 +152,67 @@ nav {
 
 }
 
-
-.advantages .advantages_header {
-	margin: 70px auto 0 auto;
-  position: center;
-  background-color: rgb(0, 0, 0);
-  width: 112px;
-  height: 24px;
-
-}
-.advantages .advantages_header h2 {
-  font-size: 11px;
-	padding: 4px;
-	font-weight: 100;
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  text-align: center;
-}
-.advantages .advantages_subheader {
-	margin-top: 30px;
-  font-size: 38px;
-  color: rgb(34, 34, 34);
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-
+.reasons {
+    padding: 71px 0 65px 0;
 }
 
-
-
-.advantages .descr_img {
-	margin: 30px 24px;
-	border-radius: 50%;
-	background-color: rgb(30, 172, 199);
-	width: 113px;
-	height: 113px;
-	float: left;
-
+.label {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
-.advantages img {
-	margin: 19% 22%;
-	width: 64px;
-	height: 69px;
-
+.title {
+    margin-bottom: 0;
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
 }
 
-
-.advantages .advantages_colon2 {
-	margin: 0 50%;
-
-}
-.advantages .advantages_descr h3 {
-	margin-top: 40px;
-  font-size: 17px;
-  font-weight: 600;
-  color: rgb(30, 172, 199);
-  text-align: justifyLeft;
-
+.reasons .reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
 }
 
-.advantages .advantages_descr p {
-  font-size: 17px;
-..font-weight: 100;
-  line-height: 1.3;
-  text-align: justifyLeft;
+.reasons .reasons_block .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
 
+.reasons .reasons_block .reasons_descr {
+    width: 343px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle{
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
 }
 
 
+/*# sourceMappingURL=style.css.map */
