@@ -221,3 +221,61 @@ nav {
   padding: 48px 0 79px 0;
   background: url("../img/mobile.png");
 }
+.mobile .row {
+  margin-top: 32px;
+}
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+.mobile_item_1 {
+  background: url("../img/formation.png");
+}
+.mobile_item_2 {
+  background: url("../img/feed.png");
+}
+.mobile_item_3 {
+  background: url("../img/transparent.png");
+}
+.mobile_item_4 {
+  background: url("../img/cashless.png");
+}
+.mobile_item_5 {
+  background: url("../img/link.png");
+}
+.mobile_item_6 {
+  background: url("../img/drive.png");
+}
+.mobile_item_subtitle {
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 31px;
+  text-align: center;
+}
+.mobile_item_plus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: black;
+  width: 26px;
+  height: 26px;
+  margin: 0 auto;
+  cursor: pointer;
+}
