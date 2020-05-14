@@ -455,6 +455,137 @@ nav {
   background: url("../img/check_red.png");
 }
 
+.city {
+  background-image: url("../img/cityBack.png");
+  min-height: 720px;
+}
+
+.city .container {
+  padding: 50px 0 50px 0;
+}
+
+.city .label {
+  background-color: white;
+  color: #000000;
+}
+
+.city .title {
+  color: white;
+}
+
+.city .subtitle {
+  color: white;
+}
+
+.city .city_woch {
+  margin-top: 480px;
+  text-align: center;
+}
+
+.city .city_woch a {
+  text-decoration: none;
+  color: #1eacc7;
+}
+
+.footer {
+  min-height: 150px;
+  background-color: #ffff;
+}
+
+.footer .bloc {
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_icon {
+  padding: 50px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_icon_1 {
+  margin: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: #000000;
+  border-radius: 100%;
+}
+
+.footer_manu {
+  padding-left: 70px;
+  width: 1500px;
+  text-align: center;
+}
+
+.footer_manu_lin:before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 299px;
+  height: 4px;
+  background-color: #1eacc7;
+}
+
+.footer_manu_main {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer_manu_main a {
+  text-decoration: none;
+  padding: 45px 20px 0 0;
+  font-size: 15px;
+  font-weight: 300;
+  color: #070716;
+  text-transform: uppercase;
+}
+
+.footer_manu_littel {
+  text-align: center;
+}
+
+.footer_manu_littel a {
+  text-decoration: none;
+  padding: 20px 20px 0 0;
+  font-size: 11px;
+  font-weight: 300;
+  color: #999999;
+  text-transform: uppercase;
+}
+
+.footer_manu_sub {
+  text-align: center;
+}
+
+.footer_manu_sub a {
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 400;
+  color: #1fbad6;
+  text-transform: uppercase;
+}
+
 .webp .promo { background-image: url("../img/Layer 3.png"); }
 
 .webp .mobile { background: url(../img/mobile.webp); }
@@ -478,3 +609,5 @@ nav {
 .webp .require_list li::before { background: url(../img/check_blue.webp); }
 
 .webp .require .warning .require_list li::before { background: url(../img/check_red.webp); }
+
+.webp .city { background-image: url(../img/cityBack.webp); }
